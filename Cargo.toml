@@ -1,0 +1,14 @@
+[package]
+name = "ll"
+version = "0.1.0"
+edition = "2024"
+description = "Super duper ls"
+
+[dependencies]
+chrono = "0.4.44"
+clap = { version = "4.6.0", features = ["derive"] }
+fmodeparser = "0.1.0"
+owo-colors = "4.3.0"
+strum = { version = "0.28.0", features = ["derive"] }
+strum_macros = "0.28.0"
+tabled = { version = "0.20.0", features = ["ansi"] }
